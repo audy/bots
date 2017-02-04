@@ -1,0 +1,17 @@
+require 'bundler'
+Bundler.require :development
+
+require './hmmdarwin.rb'
+
+desc 'tweet just one tweet'
+task :tweet do
+  HMMDarwin.new.tweet
+end
+
+task :emit do
+  puts MODEL.make_statement(140)
+end
+
+task :console do
+  binding.pry
+end
