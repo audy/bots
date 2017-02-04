@@ -8,10 +8,8 @@ TWEET_CHANCE = 1 # out of 100
 class HMMDarwin < Ebooks::Bot
   # Configuration here applies to all MyBots
   def configure
-    # Consumer details come from registering an app at https://dev.twitter.com/
-    # Once you have consumer details, use "ebooks auth" for new access tokens
-    self.consumer_key = ENV['CONSUMER_KEY'] '' # Your app consumer key
-    self.consumer_secret = ENV['CONSUMER_SECRET'] # Your app consumer secret
+    self.consumer_key = ENV['CONSUMER_KEY']
+    self.consumer_secret = ENV['CONSUMER_SECRET']
 
     # Range in seconds to randomize delay when bot.delay is called
     self.delay_range = 1..6
