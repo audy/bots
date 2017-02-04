@@ -7,3 +7,4 @@ Source code for all of my Twitter bots
 
 - [@meowhector](https://twitter.com/meowhector)
 - [@harib0t](https://twitter.com/harib0t)
+- [@hmmdarwin](https://twitter.com/hmmdarwin)
