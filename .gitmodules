@@ -1,0 +1,3 @@
+[submodule "hmmdarwin"]
+	path = hmmdarwin
+	url = git@github.com:audy/hmmdarwin.git
